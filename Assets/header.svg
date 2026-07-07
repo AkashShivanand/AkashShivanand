@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Akash Kumar, product designer who builds. On the left, a designed amount field with an error state. On the right, the same component as React code. Designs it, then ships it. Keep it simple.">
   <style>
-    .s { animation: rise .5s cubic-bezier(.23,1,.32,1) both; }
+    /* structure stays visible at all times; only the code types in, so the banner
+       never renders blank on a viewer whose browser does not animate img SVGs */
     .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
-    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
     @keyframes type { from { opacity: 0; transform: translateX(-7px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) {
-      .s, .l { animation: none; opacity: 1; transform: none; }
+      .l { animation: none; opacity: 1; transform: none; }
     }
   </style>
   <rect width="1200" height="300" fill="#0D1117"/>

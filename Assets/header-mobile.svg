@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" width="720" height="660" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. Keep it simple.">
   <style>
-    .s { animation: rise .5s cubic-bezier(.23,1,.32,1) both; }
+    /* structure stays visible; only the code types in, so the banner never renders blank */
     .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
-    @keyframes rise { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: none; } }
     @keyframes type { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) {
-      .s, .l { animation: none; opacity: 1; transform: none; }
+      .l { animation: none; opacity: 1; transform: none; }
     }
   </style>
   <rect width="720" height="660" fill="#0D1117"/>
