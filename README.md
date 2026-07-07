@@ -2,8 +2,6 @@
   <img src="./Assets/header.gif" alt="Akash Kumar rendered as an animated ASCII-art portrait beside the wordmark #keepitsimple." width="600" />
 </div>
 
-# Akash Kumar
-
 **Product designer who builds.** I design national-scale digital products for the Indian government, then implement them in code.
 
 I work where design rigour meets frontend. I define how an interface should behave and build it in React, Vue, or Angular. What I care about most is the part most people skip: what the screen says when something breaks on a slow connection. On public products used across India, that moment decides whether someone reaches a service or gives up.
