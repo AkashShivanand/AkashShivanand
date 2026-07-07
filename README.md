@@ -1,23 +1,29 @@
+<div align="center">
+  <img src="./Assets/header.gif" alt="Akash Kumar rendered as an animated ASCII-art portrait beside the wordmark #keepitsimple." width="600" />
+</div>
+
 # Akash Kumar
 
-Product designer who builds — and developer who thinks in design systems.
+**Product designer who builds.** I design national-scale digital products for the Indian government, then implement them in code.
 
-Currently at **NeGD (National e-Governance Division)**, shaping the UI/UX of government-facing digital portals used at scale across India. I work at the intersection of design rigour and frontend implementation: I define the experience, then build it.
+I work where design rigour meets frontend. I define how an interface should behave and build it in React, Vue, or Angular. What I care about most is the part most people skip: what the screen says when something breaks on a slow connection. On public products used across India, that moment decides whether someone reaches a service or gives up.
+
+Before this, I worked across Tata Neu, one of India's largest super apps. Consumer scale taught me momentum; public-sector scale taught me inclusion. Not many designers get to learn both.
 
 ---
 
 ## What I do
 
-- **UX for complex systems** — Government portals, citizen-facing flows, accessibility-first design for diverse user bases
-- **Design systems** — From tokens to components to documentation, bridging Figma and code
-- **Frontend development** — React, Vue, Angular, with an eye on visual precision and interaction quality
-- **Mobile** — iOS and Android, with a focus on native feel and design consistency
+- **UX for complex systems.** Government portals and citizen-facing flows, designed accessibility-first for people on old phones, slow networks, and second languages.
+- **Design systems.** Tokens, components, and documentation that bridge Figma and code, so a product speaks one language everywhere.
+- **Frontend.** React, Vue, and Angular, built with an eye on visual precision and interaction quality. I define the experience, then ship it in code.
+- **Mobile.** iOS and Android, with a focus on native feel.
 
 ---
 
-## Currently working on
+## Currently
 
-Designing and implementing accessible, scalable UI patterns for government digital infrastructure at NeGD — where the constraint isn't creativity, it's clarity at scale.
+Unifying sprawling public-sector platforms into single, coherent systems for the Indian government. The constraint here isn't creativity, it's clarity at scale.
 
 ---
 
@@ -35,27 +41,28 @@ Designing and implementing accessible, scalable UI patterns for government digit
 ## Tools
 
 **Design**
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=flat&logo=adobexd&logoColor=%23FF61F6)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat&logo=adobeillustrator&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white)
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=flat&logo=Adobe%20XD&logoColor=#FF61F6)
-![Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat&logo=adobe%20illustrator&logoColor=white)
-![Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white)
-![After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=flat&logo=Adobe%20After%20Effects&logoColor=white)
+**Motion**
+![Figma Smart Animate](https://img.shields.io/badge/Figma%20Smart%20Animate-F24E1E?style=flat&logo=figma&logoColor=white)
 
 **Frontend**
+![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495e?style=flat&logo=vuedotjs&logoColor=4FC08D)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-
-**Mobile & Other**
-
+**Mobile & Backend**
 ![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=ios&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
 
 ---
 
-*I simplify complex systems for a living — and overthink outfit combinations for fun.*
+If you're working on a hard interface problem, or you just want to argue about why design matters, I'm around. Find me on [LinkedIn](https://linkedin.com/in/akashshivanand).
+
+*Keep it simple. I simplify complex systems for a living, and overthink outfit combinations for fun.*
