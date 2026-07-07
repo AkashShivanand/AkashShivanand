@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Assets/header.gif" alt="Akash Kumar rendered as an animated ASCII-art portrait beside the wordmark #keepitsimple." width="100%" />
+  <img src="./Assets/header.svg" alt="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. #keepitsimple" width="100%" />
 </div>
 
 **Product designer who builds.** I design national-scale digital products for the Indian government, then implement them in code.

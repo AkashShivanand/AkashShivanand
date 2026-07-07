@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Akash Kumar, product designer who builds. On the left, a designed amount field with an error state. On the right, the same component as React code. Designs it, then ships it. Keep it simple.">
+  <style>
+    .rise  { animation: rise .45s cubic-bezier(.23,1,.32,1) both; }
+    .caret { animation: blink 1.1s steps(1) infinite; }
+    @keyframes rise  { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 52%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise  { animation: none; opacity: 1; transform: none; }
+      .caret { animation: none; }
+    }
+  </style>
+  <rect width="1200" height="300" fill="#0D1117"/>
+
+  <!-- LEFT: designed component in its error state -->
+  <g class="rise" style="animation-delay:.05s">
+    <text x="56" y="36" fill="#6E7681" font-size="12" letter-spacing="3" font-weight="600">DESIGN</text>
+    <rect x="56" y="52" width="486" height="150" rx="12" fill="#161B22" stroke="#30363D"/>
+    <text x="84" y="88" fill="#8B949E" font-size="14">Amount</text>
+    <rect x="84" y="100" width="300" height="42" rx="8" fill="#0D1117" stroke="#F85149" stroke-width="1.5"/>
+    <text x="100" y="127" fill="#6E7681" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">&#8377;</text>
+    <rect class="caret" x="120" y="111" width="2" height="21" fill="#58A6FF"/>
+    <rect x="398" y="100" width="88" height="42" rx="8" fill="#58A6FF"/>
+    <text x="442" y="127" fill="#0D1117" font-size="15" font-weight="600" text-anchor="middle">Pay</text>
+    <path d="M84 175 L90 163 L96 175 Z" fill="#F85149"/>
+    <rect x="89" y="167" width="2" height="4" fill="#0D1117"/>
+    <text x="104" y="175" fill="#F85149" font-size="13">Enter an amount</text>
+  </g>
+
+  <!-- seam: design becomes code -->
+  <g class="rise" style="animation-delay:.22s">
+    <line x1="569" y1="60" x2="569" y2="194" stroke="#21262D"/>
+    <circle cx="569" cy="127" r="15" fill="#0D1117" stroke="#30363D"/>
+    <text x="569" y="132" fill="#58A6FF" font-size="14" text-anchor="middle" font-family="ui-monospace, monospace">&#8594;</text>
+  </g>
+
+  <!-- RIGHT: editor shell + line numbers -->
+  <g class="rise" style="animation-delay:.28s">
+    <text x="1144" y="36" fill="#6E7681" font-size="12" letter-spacing="3" font-weight="600" text-anchor="end">CODE</text>
+    <rect x="596" y="52" width="548" height="150" rx="12" fill="#0D1117" stroke="#21262D"/>
+    <line x1="630" y1="64" x2="630" y2="190" stroke="#21262D"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" fill="#484F58" text-anchor="end">
+      <text x="622" y="79">1</text>
+      <text x="622" y="98">2</text>
+      <text x="622" y="117">3</text>
+      <text x="622" y="136">4</text>
+      <text x="622" y="155">5</text>
+      <text x="622" y="174">6</text>
+      <text x="622" y="193">7</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: the same component as code, typed in line by line -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" xml:space="preserve">
+    <text class="rise" style="animation-delay:.34s" x="644" y="79"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Field</tspan></text>
+    <text class="rise" style="animation-delay:.39s" x="662" y="98"><tspan fill="#79C0FF">label</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Amount"</tspan></text>
+    <text class="rise" style="animation-delay:.44s" x="662" y="117"><tspan fill="#79C0FF">prefix</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"&#8377;"</tspan></text>
+    <text class="rise" style="animation-delay:.49s" x="662" y="136"><tspan fill="#79C0FF">error</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Enter an amount"</tspan></text>
+    <text class="rise" style="animation-delay:.54s" x="644" y="155"><tspan fill="#C9D1D9">&gt;</tspan></text>
+    <text class="rise" style="animation-delay:.59s" x="662" y="174"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;Pay&lt;/</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
+    <text class="rise" style="animation-delay:.64s" x="644" y="193"><tspan fill="#C9D1D9">&lt;/</tspan><tspan fill="#7EE787">Field</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
+  </g>
+
+  <!-- footer: identity + positioning + mark -->
+  <g class="rise" style="animation-delay:.30s">
+    <line x1="56" y1="236" x2="1144" y2="236" stroke="#21262D"/>
+    <text x="56" y="272" font-size="15"><tspan fill="#E6EDF3" font-weight="700" letter-spacing="1.5">AKASH KUMAR</tspan><tspan fill="#6E7681">&#160;&#160;&#160;·&#160;&#160;&#160;</tspan><tspan fill="#8B949E" font-size="14">product designer who builds</tspan></text>
+    <text x="1144" y="272" font-size="17" font-weight="700" text-anchor="end"><tspan fill="#6E7681">#</tspan><tspan fill="#58A6FF">keep</tspan><tspan fill="#C9D1D9">it</tspan><tspan fill="#58A6FF">simple</tspan></text>
+  </g>
+</svg>
