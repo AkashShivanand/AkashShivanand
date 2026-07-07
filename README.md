@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Assets/header.gif" alt="Akash Kumar rendered as an animated ASCII-art portrait beside the wordmark #keepitsimple." width="600" />
+  <img src="./Assets/header.gif" alt="Akash Kumar rendered as an animated ASCII-art portrait beside the wordmark #keepitsimple." width="100%" />
 </div>
 
 **Product designer who builds.** I design national-scale digital products for the Indian government, then implement them in code.
