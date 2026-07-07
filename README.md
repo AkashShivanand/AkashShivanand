@@ -1,10 +1,13 @@
 <div align="center">
-  <img src="./Assets/header.svg" alt="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. #keepitsimple" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-mobile.svg" />
+    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg" alt="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. #keepitsimple" width="100%" />
+  </picture>
 </div>
 
-**Product designer who builds.** I design national-scale digital products for the Indian government, then implement them in code.
+**Product designer who builds.** I design national-scale digital products for the Indian government, and I build interfaces in React, Vue, and Angular.
 
-I work where design rigour meets frontend. I define how an interface should behave and build it in React, Vue, or Angular. What I care about most is the part most people skip: what the screen says when something breaks on a slow connection. On public products used across India, that moment decides whether someone reaches a service or gives up.
+I work where design rigour meets frontend. I define how an interface should behave, then build it myself. What I care about most is the part most people skip: what the screen says when something breaks on a slow connection. On public products used across India, that moment decides whether someone reaches a service or gives up.
 
 Before this, I worked across Tata Neu, one of India's largest super apps. Consumer scale taught me momentum; public-sector scale taught me inclusion. Not many designers get to learn both.
 
@@ -29,10 +32,10 @@ Unifying sprawling public-sector platforms into single, coherent systems for the
 
 [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/akashshivanand)
 [![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?logo=dribbble&logoColor=white)](https://dribbble.com/akashshivanand)
-[![CodePen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/akashshivanand)
+[![CodePen](https://img.shields.io/badge/Codepen-30363D?logo=codepen&logoColor=white)](https://codepen.io/akashshivanand)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/akashshivanand)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@akashshivanand)
-[![X](https://img.shields.io/badge/X-black?logo=X&logoColor=white)](https://x.com/akashshivanand)
+[![X](https://img.shields.io/badge/X-30363D?logo=X&logoColor=white)](https://x.com/akashshivanand)
 
 ---
 
