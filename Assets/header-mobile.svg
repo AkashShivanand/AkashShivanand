@@ -1,59 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 548" width="720" height="548" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. Keep it simple.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 564" width="720" height="564" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. Keep it simple.">
   <style>
     /* structure stays visible; only the code types in, so the banner never renders blank */
     .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
     @keyframes type { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; transform: none; } }
   </style>
-  <!-- rounded card: seamless on GitHub dark, a deliberate dark card on GitHub light -->
-  <rect width="720" height="548" rx="22" fill="#0D1117"/>
+  <!-- rounded card, balanced 28px padding -->
+  <rect width="720" height="564" rx="22" fill="#0D1117"/>
 
   <!-- identity -->
-  <text x="40" y="50" font-size="23" font-weight="700" letter-spacing="2" fill="#E6EDF3">AKASH KUMAR</text>
-  <text x="680" y="50" font-size="20" font-weight="700" text-anchor="end"><tspan fill="#6E7681">#</tspan><tspan fill="#58A6FF">keep</tspan><tspan fill="#C9D1D9">it</tspan><tspan fill="#58A6FF">simple</tspan></text>
-  <text x="40" y="78" font-size="15" fill="#8B949E">product designer who builds</text>
-  <line x1="40" y1="98" x2="680" y2="98" stroke="#21262D"/>
+  <text x="28" y="46" font-size="24" font-weight="700" letter-spacing="2" fill="#E6EDF3">AKASH KUMAR</text>
+  <text x="692" y="46" font-size="21" font-weight="700" text-anchor="end"><tspan fill="#6E7681">#</tspan><tspan fill="#58A6FF">keep</tspan><tspan fill="#C9D1D9">it</tspan><tspan fill="#58A6FF">simple</tspan></text>
+  <text x="28" y="74" font-size="15" fill="#8B949E">product designer who builds</text>
+  <line x1="28" y1="96" x2="692" y2="96" stroke="#21262D"/>
 
   <!-- DESIGN -->
-  <text x="40" y="130" fill="#6E7681" font-size="12" letter-spacing="3" font-weight="600">DESIGN</text>
-  <rect x="40" y="144" width="640" height="152" rx="14" fill="#161B22" stroke="#30363D"/>
-  <text x="70" y="182" fill="#8B949E" font-size="15">Amount</text>
-  <rect x="70" y="194" width="370" height="46" rx="10" fill="#0D1117" stroke="#F85149" stroke-width="1.5"/>
-  <text x="88" y="224" fill="#6E7681" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">&#8377;</text>
-  <rect x="112" y="205" width="2" height="24" fill="#58A6FF">
+  <text x="28" y="130" fill="#6E7681" font-size="13" letter-spacing="3" font-weight="600">DESIGN</text>
+  <rect x="28" y="144" width="664" height="150" rx="14" fill="#161B22" stroke="#30363D"/>
+  <text x="56" y="182" fill="#8B949E" font-size="16">Amount</text>
+  <rect x="56" y="194" width="412" height="46" rx="10" fill="#0D1117" stroke="#F85149" stroke-width="1.5"/>
+  <text x="76" y="224" fill="#6E7681" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">&#8377;</text>
+  <rect x="100" y="204" width="2" height="24" fill="#58A6FF">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
-  <rect x="458" y="194" width="182" height="46" rx="10" fill="#58A6FF"/>
-  <text x="549" y="224" fill="#0D1117" font-size="16" font-weight="600" text-anchor="middle">Pay</text>
-  <path d="M70 280 L76 267 L82 280 Z" fill="#F85149"/>
-  <rect x="75" y="271" width="2" height="5" fill="#0D1117"/>
-  <text x="92" y="280" fill="#F85149" font-size="14">Enter an amount</text>
+  <rect x="484" y="194" width="180" height="46" rx="10" fill="#58A6FF"/>
+  <text x="574" y="224" fill="#0D1117" font-size="17" font-weight="600" text-anchor="middle">Pay</text>
+  <path d="M56 284 L62 271 L68 284 Z" fill="#F85149"/>
+  <rect x="61" y="275" width="2" height="5" fill="#0D1117"/>
+  <text x="78" y="284" fill="#F85149" font-size="14">Enter an amount</text>
 
   <!-- seam: becomes -->
-  <line x1="360" y1="304" x2="360" y2="340" stroke="#21262D"/>
-  <circle cx="360" cy="322" r="15" fill="#0D1117" stroke="#30363D"/>
-  <text x="360" y="327" fill="#58A6FF" font-size="15" text-anchor="middle" font-family="ui-monospace, monospace">&#8595;</text>
+  <line x1="360" y1="302" x2="360" y2="338" stroke="#21262D"/>
+  <circle cx="360" cy="320" r="16" fill="#0D1117" stroke="#30363D"/>
+  <text x="360" y="326" fill="#58A6FF" font-size="16" text-anchor="middle" font-family="ui-monospace, monospace">&#8595;</text>
 
   <!-- CODE -->
-  <text x="40" y="368" fill="#6E7681" font-size="12" letter-spacing="3" font-weight="600">CODE</text>
-  <rect x="40" y="382" width="640" height="148" rx="14" fill="#0D1117" stroke="#21262D"/>
-  <line x1="80" y1="396" x2="80" y2="516" stroke="#21262D"/>
+  <text x="28" y="372" fill="#6E7681" font-size="13" letter-spacing="3" font-weight="600">CODE</text>
+  <rect x="28" y="386" width="664" height="150" rx="14" fill="#0D1117" stroke="#21262D"/>
+  <line x1="68" y1="400" x2="68" y2="522" stroke="#21262D"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#484F58" text-anchor="end">
-    <text x="70" y="415">1</text>
-    <text x="70" y="433">2</text>
-    <text x="70" y="451">3</text>
-    <text x="70" y="469">4</text>
-    <text x="70" y="487">5</text>
-    <text x="70" y="505">6</text>
-    <text x="70" y="523">7</text>
+    <text x="58" y="414">1</text>
+    <text x="58" y="433">2</text>
+    <text x="58" y="452">3</text>
+    <text x="58" y="471">4</text>
+    <text x="58" y="490">5</text>
+    <text x="58" y="509">6</text>
+    <text x="58" y="528">7</text>
   </g>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" xml:space="preserve">
-    <text class="l" style="animation-delay:.34s" x="94" y="415"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Field</tspan></text>
-    <text class="l" style="animation-delay:.4s"  x="112" y="433"><tspan fill="#79C0FF">label</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Amount"</tspan></text>
-    <text class="l" style="animation-delay:.46s" x="112" y="451"><tspan fill="#79C0FF">prefix</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"&#8377;"</tspan></text>
-    <text class="l" style="animation-delay:.52s" x="112" y="469"><tspan fill="#79C0FF">error</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Enter an amount"</tspan></text>
-    <text class="l" style="animation-delay:.58s" x="94" y="487"><tspan fill="#C9D1D9">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.64s" x="112" y="505"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;Pay&lt;/</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.7s"  x="94" y="523"><tspan fill="#C9D1D9">&lt;/</tspan><tspan fill="#7EE787">Field</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.34s" x="84" y="414"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Field</tspan></text>
+    <text class="l" style="animation-delay:.4s"  x="102" y="433"><tspan fill="#79C0FF">label</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Amount"</tspan></text>
+    <text class="l" style="animation-delay:.46s" x="102" y="452"><tspan fill="#79C0FF">prefix</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"&#8377;"</tspan></text>
+    <text class="l" style="animation-delay:.52s" x="102" y="471"><tspan fill="#79C0FF">error</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Enter an amount"</tspan></text>
+    <text class="l" style="animation-delay:.58s" x="84" y="490"><tspan fill="#C9D1D9">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.64s" x="102" y="509"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;Pay&lt;/</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.7s"  x="84" y="528"><tspan fill="#C9D1D9">&lt;/</tspan><tspan fill="#7EE787">Field</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
   </g>
 </svg>
