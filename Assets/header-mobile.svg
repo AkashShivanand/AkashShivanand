@@ -5,7 +5,8 @@
     @keyframes type { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; transform: none; } }
   </style>
-  <rect width="720" height="548" fill="#0D1117"/>
+  <!-- rounded card: seamless on GitHub dark, a deliberate dark card on GitHub light -->
+  <rect width="720" height="548" rx="22" fill="#0D1117"/>
 
   <!-- identity -->
   <text x="40" y="50" font-size="23" font-weight="700" letter-spacing="2" fill="#E6EDF3">AKASH KUMAR</text>

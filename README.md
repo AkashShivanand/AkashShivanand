@@ -13,7 +13,7 @@ I believe the interface is where a product decides who it is actually for. At In
 
 ## Selected work
 
-- **Tata Neu, one of India's largest super apps.** Designed across nearly every surface, then built the in-house, token-based design system behind the 2023 relaunch and scaled it across food delivery, fashion, grocery, and seasonal modules.
+- **Tata Neu, one of India's largest super apps.** Designed across nearly every surface, then built the in-house, token-based design system behind the 2023 relaunch, the same relaunch that saw its Google Play rating climb from 3.8 to 4.2. Scaled it across food delivery, fashion, grocery, and seasonal modules.
 - **The Indian government** *(current)***.** Unifying sprawling public-sector platforms into single, coherent systems, and building the shared design and component foundations behind national e-governance services.
 
 ## What I do

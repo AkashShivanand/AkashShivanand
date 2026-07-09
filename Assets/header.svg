@@ -8,7 +8,8 @@
       .l { animation: none; opacity: 1; transform: none; }
     }
   </style>
-  <rect width="1200" height="288" fill="#0D1117"/>
+  <!-- rounded card: seamless on GitHub dark, a deliberate dark card on GitHub light -->
+  <rect width="1200" height="288" rx="18" fill="#0D1117"/>
 
   <!-- LEFT: designed component in its error state -->
   <g class="s" style="animation-delay:.04s">
