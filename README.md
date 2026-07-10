@@ -24,12 +24,12 @@ The interface is where a product decides who it is actually for. At India's scal
 
 ## Tools
 
-**Design** &nbsp;
+**Design**<br/>
 ![Figma](https://img.shields.io/badge/Figma-21262D?style=flat&logo=figma&logoColor=F24E1E)
 ![Illustrator](https://img.shields.io/badge/Illustrator-21262D?style=flat&logo=adobeillustrator&logoColor=FF9A00)
 ![Photoshop](https://img.shields.io/badge/Photoshop-21262D?style=flat&logo=adobephotoshop&logoColor=31A8FF)
 
-**Build** &nbsp;
+**Build**<br/>
 ![React](https://img.shields.io/badge/React-21262D?style=flat&logo=react&logoColor=61DAFB)
 ![Vue](https://img.shields.io/badge/Vue-21262D?style=flat&logo=vuedotjs&logoColor=4FC08D)
 ![Angular](https://img.shields.io/badge/Angular-21262D?style=flat&logo=angular&logoColor=E23237)
@@ -37,6 +37,13 @@ The interface is where a product decides who it is actually for. At India's scal
 ![Tailwind](https://img.shields.io/badge/Tailwind-21262D?style=flat&logo=tailwindcss&logoColor=38BDF8)
 ![iOS](https://img.shields.io/badge/iOS-21262D?style=flat&logo=apple&logoColor=FFFFFF)
 ![Android](https://img.shields.io/badge/Android-21262D?style=flat&logo=android&logoColor=3DDC84)
+
+**AI**<br/>
+![Claude](https://img.shields.io/badge/Claude-21262D?style=flat&logo=claude&logoColor=D97757)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-21262D?style=flat&logo=claude&logoColor=D97757)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-21262D?style=flat&logo=openai&logoColor=FFFFFF)
+![Gemini](https://img.shields.io/badge/Gemini-21262D?style=flat&logo=googlegemini&logoColor=8AB4F8)
+![Perplexity](https://img.shields.io/badge/Perplexity-21262D?style=flat&logo=perplexity&logoColor=20B8CD)
 
 ## Find me
 
@@ -51,4 +58,4 @@ The interface is where a product decides who it is actually for. At India's scal
 
 If you are working on a hard interface problem, or you just want to argue about why design matters, I am around. Find me on [LinkedIn](https://linkedin.com/in/akashshivanand).
 
-*Keep it simple. I simplify complex systems for a living, and overthink outfit combinations for fun.*
+*I simplify complex systems for a living, and overthink outfit combinations for fun.*
