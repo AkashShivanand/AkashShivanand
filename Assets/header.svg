@@ -5,8 +5,9 @@
     @keyframes type { from { opacity: 0; transform: translateX(-7px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; transform: none; } }
   </style>
-  <!-- rounded card: seamless on GitHub dark, a deliberate dark card on GitHub light. Balanced 24px padding, content sits on the same left rail as the body copy. -->
-  <rect width="1200" height="300" rx="18" fill="#0D1117"/>
+  <!-- rounded card with a subtle border: defines the card as a bounded element in both themes,
+       so the padded content reads as intentional (not misaligned) and the card edge sits on the body rail. -->
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="#0D1117" stroke="#21262D"/>
 
   <text x="24" y="36" fill="#6E7681" font-size="12" letter-spacing="3" font-weight="600">DESIGN</text>
   <text x="1176" y="36" fill="#6E7681" font-size="12" letter-spacing="3" font-weight="600" text-anchor="end">CODE</text>

@@ -5,8 +5,8 @@
     @keyframes type { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; transform: none; } }
   </style>
-  <!-- rounded card, balanced 28px padding -->
-  <rect width="720" height="564" rx="22" fill="#0D1117"/>
+  <!-- rounded card with a subtle border: defines the card as a bounded element in both themes -->
+  <rect x="1" y="1" width="718" height="562" rx="21" fill="#0D1117" stroke="#21262D"/>
 
   <!-- identity -->
   <text x="28" y="46" font-size="24" font-weight="700" letter-spacing="2" fill="#E6EDF3">AKASH KUMAR</text>
