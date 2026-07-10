@@ -41,7 +41,6 @@ The interface is where a product decides who it is actually for. At India's scal
 **AI**<br/>
 ![Claude](https://img.shields.io/badge/Claude-21262D?style=flat&logo=claude&logoColor=D97757)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-21262D?style=flat&logo=claude&logoColor=D97757)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-21262D?style=flat&logo=openai&logoColor=FFFFFF)
 ![Gemini](https://img.shields.io/badge/Gemini-21262D?style=flat&logo=googlegemini&logoColor=8AB4F8)
 ![Perplexity](https://img.shields.io/badge/Perplexity-21262D?style=flat&logo=perplexity&logoColor=20B8CD)
 
