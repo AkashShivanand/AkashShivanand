@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-mobile.svg" />
-    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg" alt="Akash Kumar, product designer who builds. A designed amount field with an error state becomes React code: designs it, then ships it. #keepitsimple" width="100%" />
+    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg" alt="Akash Kumar's header: a designed mobile number field caught in its error state, and the same component written as React code beside it. #keepitsimple" width="100%" />
   </picture>
 </div>
 
