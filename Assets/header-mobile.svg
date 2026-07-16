@@ -8,10 +8,10 @@
   <!-- rounded card with a subtle border: defines the card as a bounded element in both themes -->
   <rect x="1" y="1" width="718" height="562" rx="21" fill="#0D1117" stroke="#21262D"/>
 
-  <!-- identity -->
-  <text x="28" y="46" font-size="24" font-weight="700" letter-spacing="2" fill="#E6EDF3">AKASH KUMAR</text>
-  <text x="692" y="46" font-size="21" font-weight="700" text-anchor="end"><tspan fill="#6E7681">#</tspan><tspan fill="#58A6FF">keep</tspan><tspan fill="#C9D1D9">it</tspan><tspan fill="#58A6FF">simple</tspan></text>
-  <text x="28" y="74" font-size="15" fill="#8B949E">product designer who builds</text>
+  <!-- mark + concept caption. Name and tagline omitted: GitHub's profile header already
+       carries both directly above this banner on mobile, so repeating them read as redundant. -->
+  <text x="28" y="46" font-size="22" font-weight="700"><tspan fill="#6E7681">#</tspan><tspan fill="#58A6FF">keep</tspan><tspan fill="#C9D1D9">it</tspan><tspan fill="#58A6FF">simple</tspan></text>
+  <text x="28" y="74" font-size="15" fill="#8B949E">designs it, then ships it</text>
   <line x1="28" y1="96" x2="692" y2="96" stroke="#21262D"/>
 
   <!-- DESIGN -->
