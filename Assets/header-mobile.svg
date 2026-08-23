@@ -1,24 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="720" height="540" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="A designed mobile number field caught in its error state, and the same component written as React code below it. Labelled DESIGN and CODE. Keep it simple.">
   <style>
-    /* structure stays visible; only the code types in, so the banner never renders blank */
-    .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
+    @media (prefers-reduced-motion: no-preference) {
+      .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
+    }
     @keyframes type { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
-    @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; transform: none; } }
   </style>
-  <defs>
-    <clipPath id="card"><rect x="1" y="1" width="718" height="538" rx="21"/></clipPath>
-  </defs>
+  <defs><clipPath id="card"><rect x="1" y="1" width="718" height="538" rx="21"/></clipPath></defs>
 
-  <!-- Same palette as the desktop banner, the site, and the Figma profile.
-       Layout differs; copy and colour never do (see CLAUDE.md). -->
   <rect x="1" y="1" width="718" height="538" rx="21" fill="#F7F5EF" stroke="#E4E0D2"/>
   <rect x="1" y="1" width="718" height="9" fill="#B3491B" clip-path="url(#card)"/>
 
-  <!-- mark only. No name, tagline, or bio-paraphrasing caption (see CLAUDE.md). -->
   <text x="28" y="54" font-size="22" font-weight="700"><tspan fill="#8F8A7A">#</tspan><tspan fill="#B3491B">keep</tspan><tspan fill="#16150F">it</tspan><tspan fill="#B3491B">simple</tspan></text>
   <line x1="28" y1="80" x2="692" y2="80" stroke="#E4E0D2"/>
 
-  <!-- DESIGN / CODE lead the hierarchy; the demo component is deliberately non-transactional. -->
   <text x="28" y="114" fill="#B3491B" font-size="14" letter-spacing="3" font-weight="700">DESIGN</text>
   <rect x="28" y="128" width="664" height="150" rx="14" fill="#FFFEFB" stroke="#E4E0D2"/>
   <text x="56" y="166" fill="#16150F" font-size="16" font-weight="600">Mobile number</text>
@@ -33,12 +27,10 @@
   <rect x="61" y="259" width="2" height="5" fill="#FFFEFB"/>
   <text x="78" y="268" fill="#B3491B" font-size="14" font-weight="600">Enter all 10 digits</text>
 
-  <!-- seam: becomes -->
   <line x1="360" y1="286" x2="360" y2="322" stroke="#E4E0D2"/>
   <circle cx="360" cy="304" r="16" fill="#F7F5EF" stroke="#E4E0D2"/>
   <text x="360" y="310" fill="#B3491B" font-size="16" text-anchor="middle" font-family="ui-monospace, monospace">&#8595;</text>
 
-  <!-- CODE -->
   <text x="28" y="356" fill="#B3491B" font-size="14" letter-spacing="3" font-weight="700">CODE</text>
   <rect x="28" y="370" width="664" height="150" rx="14" fill="#FFFEFB" stroke="#E4E0D2"/>
   <line x1="68" y1="384" x2="68" y2="506" stroke="#E4E0D2"/>
@@ -53,11 +45,11 @@
   </g>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" xml:space="preserve">
     <text class="l" style="animation-delay:.34s" x="84" y="398"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Field</tspan></text>
-    <text class="l" style="animation-delay:.4s"  x="102" y="417"><tspan fill="#16150F">label</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Mobile number"</tspan></text>
+    <text class="l" style="animation-delay:.40s" x="102" y="417"><tspan fill="#16150F">label</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Mobile number"</tspan></text>
     <text class="l" style="animation-delay:.46s" x="102" y="436"><tspan fill="#16150F">prefix</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"+91"</tspan></text>
     <text class="l" style="animation-delay:.52s" x="102" y="455"><tspan fill="#16150F">error</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Enter all 10 digits"</tspan></text>
     <text class="l" style="animation-delay:.58s" x="84" y="474"><tspan fill="#6E6A5E">&gt;</tspan></text>
     <text class="l" style="animation-delay:.64s" x="102" y="493"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;Continue&lt;/</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.7s"  x="84" y="512"><tspan fill="#6E6A5E">&lt;/</tspan><tspan fill="#16150F" font-weight="600">Field</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.70s" x="84" y="512"><tspan fill="#6E6A5E">&lt;/</tspan><tspan fill="#16150F" font-weight="600">Field</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
   </g>
 </svg>

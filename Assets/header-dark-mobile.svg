@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="720" height="540" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="A designed mobile number field caught in its error state, and the same component written as React code below it. Labelled DESIGN and CODE. Keep it simple.">
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
+    }
+    @keyframes type { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+  </style>
+  <defs><clipPath id="card"><rect x="1" y="1" width="718" height="538" rx="21"/></clipPath></defs>
+
+  <rect x="1" y="1" width="718" height="538" rx="21" fill="#16150F" stroke="#3A362A"/>
+  <rect x="1" y="1" width="718" height="9" fill="#E8956A" clip-path="url(#card)"/>
+
+  <text x="28" y="54" font-size="22" font-weight="700"><tspan fill="#6E6A5E">#</tspan><tspan fill="#E8956A">keep</tspan><tspan fill="#F7F5EF">it</tspan><tspan fill="#E8956A">simple</tspan></text>
+  <line x1="28" y1="80" x2="692" y2="80" stroke="#3A362A"/>
+
+  <text x="28" y="114" fill="#E8956A" font-size="14" letter-spacing="3" font-weight="700">DESIGN</text>
+  <rect x="28" y="128" width="664" height="150" rx="14" fill="#1C1B14" stroke="#3A362A"/>
+  <text x="56" y="166" fill="#F7F5EF" font-size="16" font-weight="600">Mobile number</text>
+  <rect x="56" y="178" width="428" height="46" rx="10" fill="#12110C" stroke="#E8956A" stroke-width="1.5"/>
+  <text x="76" y="208" fill="#A89F8C" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">+91</text>
+  <rect x="114" y="188" width="2" height="24" fill="#F7F5EF">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+  <rect x="504" y="178" width="160" height="46" rx="10" fill="#F7F5EF"/>
+  <text x="584" y="208" fill="#16150F" font-size="17" font-weight="600" text-anchor="middle">Continue</text>
+  <path d="M56 268 L62 255 L68 268 Z" fill="#E8956A"/>
+  <rect x="61" y="259" width="2" height="5" fill="#1C1B14"/>
+  <text x="78" y="268" fill="#E8956A" font-size="14" font-weight="600">Enter all 10 digits</text>
+
+  <line x1="360" y1="286" x2="360" y2="322" stroke="#3A362A"/>
+  <circle cx="360" cy="304" r="16" fill="#16150F" stroke="#3A362A"/>
+  <text x="360" y="310" fill="#E8956A" font-size="16" text-anchor="middle" font-family="ui-monospace, monospace">&#8595;</text>
+
+  <text x="28" y="356" fill="#E8956A" font-size="14" letter-spacing="3" font-weight="700">CODE</text>
+  <rect x="28" y="370" width="664" height="150" rx="14" fill="#1C1B14" stroke="#3A362A"/>
+  <line x1="68" y1="384" x2="68" y2="506" stroke="#3A362A"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#6E6A5E" text-anchor="end">
+    <text x="58" y="398">1</text>
+    <text x="58" y="417">2</text>
+    <text x="58" y="436">3</text>
+    <text x="58" y="455">4</text>
+    <text x="58" y="474">5</text>
+    <text x="58" y="493">6</text>
+    <text x="58" y="512">7</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" xml:space="preserve">
+    <text class="l" style="animation-delay:.34s" x="84" y="398"><tspan fill="#A89F8C">&lt;</tspan><tspan fill="#F7F5EF" font-weight="600">Field</tspan></text>
+    <text class="l" style="animation-delay:.40s" x="102" y="417"><tspan fill="#F7F5EF">label</tspan><tspan fill="#A89F8C">=</tspan><tspan fill="#E8956A">"Mobile number"</tspan></text>
+    <text class="l" style="animation-delay:.46s" x="102" y="436"><tspan fill="#F7F5EF">prefix</tspan><tspan fill="#A89F8C">=</tspan><tspan fill="#E8956A">"+91"</tspan></text>
+    <text class="l" style="animation-delay:.52s" x="102" y="455"><tspan fill="#F7F5EF">error</tspan><tspan fill="#A89F8C">=</tspan><tspan fill="#E8956A">"Enter all 10 digits"</tspan></text>
+    <text class="l" style="animation-delay:.58s" x="84" y="474"><tspan fill="#A89F8C">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.64s" x="102" y="493"><tspan fill="#A89F8C">&lt;</tspan><tspan fill="#F7F5EF" font-weight="600">Button</tspan><tspan fill="#A89F8C">&gt;Continue&lt;/</tspan><tspan fill="#F7F5EF" font-weight="600">Button</tspan><tspan fill="#A89F8C">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.70s" x="84" y="512"><tspan fill="#A89F8C">&lt;/</tspan><tspan fill="#F7F5EF" font-weight="600">Field</tspan><tspan fill="#A89F8C">&gt;</tspan></text>
+  </g>
+</svg>

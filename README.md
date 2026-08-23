@@ -1,7 +1,9 @@
 <div align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-mobile.svg" />
-    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg" alt="Akash Kumar's header: a designed mobile number field caught in its error state, and the same component written as React code beside it. #keepitsimple" width="100%" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-dark-mobile.svg?v=2" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-dark.svg?v=2" />
+    <source media="(max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-mobile.svg?v=2" />
+    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg?v=2" alt="Akash Kumar&#39;s header: a designed mobile number field caught in its error state, and the same component written as React code beside it. #keepitsimple" width="100%" />
   </picture>
 </div>
 
