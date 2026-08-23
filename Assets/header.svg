@@ -5,59 +5,67 @@
     @keyframes type { from { opacity: 0; transform: translateX(-7px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; transform: none; } }
   </style>
-  <!-- rounded bordered card: seamless on GitHub dark, a deliberate dark card on GitHub light -->
-  <rect x="1" y="1" width="1198" height="298" rx="17" fill="#0D1117" stroke="#21262D"/>
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="298" rx="17"/></clipPath>
+  </defs>
+
+  <!-- The brand's own ground: bone paper, ink, one ember. Same palette as
+       akashshivanand.com, its share cards, and the Figma profile. Deliberately
+       not GitHub's dark chrome: the point is that every surface looks like him. -->
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="#F7F5EF" stroke="#E4E0D2"/>
+  <!-- the site's top edge, the one mark every card in the system carries -->
+  <rect x="1" y="1" width="1198" height="9" fill="#B3491B" clip-path="url(#card)"/>
 
   <!-- DESIGN / CODE are the key to reading this banner, so they lead the hierarchy.
        The demo component is deliberately non-transactional: a payment form here read as
        "he is asking me to pay", especially next to GitHub's Sponsor button. -->
-  <text x="24" y="36" fill="#8B949E" font-size="13" letter-spacing="3" font-weight="600">DESIGN</text>
-  <text x="1176" y="36" fill="#8B949E" font-size="13" letter-spacing="3" font-weight="600" text-anchor="end">CODE</text>
+  <text x="24" y="44" fill="#B3491B" font-size="14" letter-spacing="3" font-weight="700">DESIGN</text>
+  <text x="1176" y="44" fill="#B3491B" font-size="14" letter-spacing="3" font-weight="700" text-anchor="end">CODE</text>
 
   <!-- LEFT: designed component in its error state -->
-  <rect x="24" y="56" width="514" height="152" rx="12" fill="#161B22" stroke="#30363D"/>
-  <text x="48" y="90" fill="#8B949E" font-size="14">Mobile number</text>
-  <rect x="48" y="102" width="326" height="42" rx="8" fill="#0D1117" stroke="#F85149" stroke-width="1.5"/>
-  <text x="64" y="129" fill="#6E7681" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">+91</text>
-  <rect x="98" y="113" width="2" height="21" fill="#58A6FF">
+  <rect x="24" y="60" width="514" height="152" rx="12" fill="#FFFEFB" stroke="#E4E0D2"/>
+  <text x="48" y="94" fill="#16150F" font-size="14" font-weight="600">Mobile number</text>
+  <rect x="48" y="106" width="326" height="42" rx="8" fill="#FFFFFF" stroke="#B3491B" stroke-width="1.5"/>
+  <text x="64" y="133" fill="#6E6A5E" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">+91</text>
+  <rect x="98" y="117" width="2" height="21" fill="#16150F">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
-  <rect x="394" y="102" width="120" height="42" rx="8" fill="#58A6FF"/>
-  <text x="454" y="129" fill="#0D1117" font-size="15" font-weight="600" text-anchor="middle">Continue</text>
-  <path d="M48 176 L54 164 L60 176 Z" fill="#F85149"/>
-  <rect x="53" y="168" width="2" height="4" fill="#0D1117"/>
-  <text x="68" y="176" fill="#F85149" font-size="13">Enter all 10 digits</text>
+  <rect x="394" y="106" width="120" height="42" rx="8" fill="#16150F"/>
+  <text x="454" y="133" fill="#F7F5EF" font-size="15" font-weight="600" text-anchor="middle">Continue</text>
+  <path d="M48 180 L54 168 L60 180 Z" fill="#B3491B"/>
+  <rect x="53" y="172" width="2" height="4" fill="#FFFEFB"/>
+  <text x="68" y="180" fill="#B3491B" font-size="13" font-weight="600">Enter all 10 digits</text>
 
   <!-- seam: design becomes code -->
-  <line x1="566" y1="62" x2="566" y2="202" stroke="#21262D"/>
-  <circle cx="566" cy="132" r="15" fill="#0D1117" stroke="#30363D"/>
-  <text x="566" y="137" fill="#58A6FF" font-size="14" text-anchor="middle" font-family="ui-monospace, monospace">&#8594;</text>
+  <line x1="566" y1="66" x2="566" y2="206" stroke="#E4E0D2"/>
+  <circle cx="566" cy="136" r="15" fill="#F7F5EF" stroke="#E4E0D2"/>
+  <text x="566" y="141" fill="#B3491B" font-size="14" text-anchor="middle" font-family="ui-monospace, monospace">&#8594;</text>
 
   <!-- RIGHT: editor shell + line numbers -->
-  <rect x="594" y="56" width="582" height="152" rx="12" fill="#0D1117" stroke="#21262D"/>
-  <line x1="628" y1="62" x2="628" y2="202" stroke="#21262D"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" fill="#484F58" text-anchor="end">
-    <text x="622" y="83">1</text>
-    <text x="622" y="102">2</text>
-    <text x="622" y="121">3</text>
-    <text x="622" y="140">4</text>
-    <text x="622" y="159">5</text>
-    <text x="622" y="178">6</text>
-    <text x="622" y="197">7</text>
+  <rect x="594" y="60" width="582" height="152" rx="12" fill="#FFFEFB" stroke="#E4E0D2"/>
+  <line x1="628" y1="66" x2="628" y2="206" stroke="#E4E0D2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" fill="#8F8A7A" text-anchor="end">
+    <text x="622" y="87">1</text>
+    <text x="622" y="106">2</text>
+    <text x="622" y="125">3</text>
+    <text x="622" y="144">4</text>
+    <text x="622" y="163">5</text>
+    <text x="622" y="182">6</text>
+    <text x="622" y="201">7</text>
   </g>
 
   <!-- RIGHT: the same component as code, typed in line by line -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" xml:space="preserve">
-    <text class="l" style="animation-delay:.34s" x="644" y="83"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Field</tspan></text>
-    <text class="l" style="animation-delay:.4s"  x="662" y="102"><tspan fill="#79C0FF">label</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Mobile number"</tspan></text>
-    <text class="l" style="animation-delay:.46s" x="662" y="121"><tspan fill="#79C0FF">prefix</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"+91"</tspan></text>
-    <text class="l" style="animation-delay:.52s" x="662" y="140"><tspan fill="#79C0FF">error</tspan><tspan fill="#C9D1D9">=</tspan><tspan fill="#A5D6FF">"Enter all 10 digits"</tspan></text>
-    <text class="l" style="animation-delay:.58s" x="644" y="159"><tspan fill="#C9D1D9">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.64s" x="662" y="178"><tspan fill="#C9D1D9">&lt;</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;Continue&lt;/</tspan><tspan fill="#7EE787">Button</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.7s"  x="644" y="197"><tspan fill="#C9D1D9">&lt;/</tspan><tspan fill="#7EE787">Field</tspan><tspan fill="#C9D1D9">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.34s" x="644" y="87"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Field</tspan></text>
+    <text class="l" style="animation-delay:.4s"  x="662" y="106"><tspan fill="#16150F">label</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Mobile number"</tspan></text>
+    <text class="l" style="animation-delay:.46s" x="662" y="125"><tspan fill="#16150F">prefix</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"+91"</tspan></text>
+    <text class="l" style="animation-delay:.52s" x="662" y="144"><tspan fill="#16150F">error</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Enter all 10 digits"</tspan></text>
+    <text class="l" style="animation-delay:.58s" x="644" y="163"><tspan fill="#6E6A5E">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.64s" x="662" y="182"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;Continue&lt;/</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
+    <text class="l" style="animation-delay:.7s"  x="644" y="201"><tspan fill="#6E6A5E">&lt;/</tspan><tspan fill="#16150F" font-weight="600">Field</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
   </g>
 
   <!-- footer: the mark only. No name, tagline, or bio-paraphrasing caption (see CLAUDE.md). -->
-  <line x1="24" y1="236" x2="1176" y2="236" stroke="#21262D"/>
-  <text x="1176" y="266" font-size="17" font-weight="700" text-anchor="end"><tspan fill="#6E7681">#</tspan><tspan fill="#58A6FF">keep</tspan><tspan fill="#C9D1D9">it</tspan><tspan fill="#58A6FF">simple</tspan></text>
+  <line x1="24" y1="240" x2="1176" y2="240" stroke="#E4E0D2"/>
+  <text x="1176" y="270" font-size="17" font-weight="700" text-anchor="end"><tspan fill="#8F8A7A">#</tspan><tspan fill="#B3491B">keep</tspan><tspan fill="#16150F">it</tspan><tspan fill="#B3491B">simple</tspan></text>
 </svg>
