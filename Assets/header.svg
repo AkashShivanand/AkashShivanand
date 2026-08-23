@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="A designed mobile number field caught in its error state, and the same component written as React code beside it. Labelled DESIGN and CODE. Keep it simple.">
   <style>
-    @media (prefers-reduced-motion: no-preference) {
-      .l { animation: type .4s cubic-bezier(.23,1,.32,1) both; }
-    }
-    @keyframes type { from { opacity: 0; transform: translateX(-7px); } to { opacity: 1; transform: none; } }
+    .scan { opacity: 0 }
+    @media (prefers-reduced-motion: no-preference) { .scan { opacity: .10 } }
   </style>
   <defs><clipPath id="card"><rect x="1" y="1" width="1198" height="298" rx="17"/></clipPath></defs>
 
@@ -42,14 +40,18 @@
     <text x="622" y="201">7</text>
   </g>
 
+  <rect class="scan" x="636" y="73" width="532" height="19" rx="3" fill="#B3491B">
+    <animate attributeName="y" dur="4.2s" calcMode="discrete" repeatCount="indefinite"
+      values="73;92;111;130;149;168;187"/>
+  </rect>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" xml:space="preserve">
-    <text class="l" style="animation-delay:.34s" x="644" y="87"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Field</tspan></text>
-    <text class="l" style="animation-delay:.40s" x="662" y="106"><tspan fill="#16150F">label</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Mobile number"</tspan></text>
-    <text class="l" style="animation-delay:.46s" x="662" y="125"><tspan fill="#16150F">prefix</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"+91"</tspan></text>
-    <text class="l" style="animation-delay:.52s" x="662" y="144"><tspan fill="#16150F">error</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Enter all 10 digits"</tspan></text>
-    <text class="l" style="animation-delay:.58s" x="644" y="163"><tspan fill="#6E6A5E">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.64s" x="662" y="182"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;Continue&lt;/</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
-    <text class="l" style="animation-delay:.70s" x="644" y="201"><tspan fill="#6E6A5E">&lt;/</tspan><tspan fill="#16150F" font-weight="600">Field</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
+    <text x="644" y="87"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Field</tspan></text>
+    <text x="662" y="106"><tspan fill="#16150F">label</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Mobile number"</tspan></text>
+    <text x="662" y="125"><tspan fill="#16150F">prefix</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"+91"</tspan></text>
+    <text x="662" y="144"><tspan fill="#16150F">error</tspan><tspan fill="#6E6A5E">=</tspan><tspan fill="#B3491B">"Enter all 10 digits"</tspan></text>
+    <text x="644" y="163"><tspan fill="#6E6A5E">&gt;</tspan></text>
+    <text x="662" y="182"><tspan fill="#6E6A5E">&lt;</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;Continue&lt;/</tspan><tspan fill="#16150F" font-weight="600">Button</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
+    <text x="644" y="201"><tspan fill="#6E6A5E">&lt;/</tspan><tspan fill="#16150F" font-weight="600">Field</tspan><tspan fill="#6E6A5E">&gt;</tspan></text>
   </g>
 
   <line x1="24" y1="240" x2="1176" y2="240" stroke="#E4E0D2"/>
