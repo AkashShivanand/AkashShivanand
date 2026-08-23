@@ -5,7 +5,7 @@
   </picture>
 </div>
 
-**I turn tangled products into simple systems.** Nine years of it, first for one of India's largest consumer super apps, now for the Indian government. I trained as an engineer, so I design the experience and build it in React, Vue, or Angular. The work ships because I speak both sides.
+**I make complicated products simple.** Nine years of it, first for one of India's largest consumer super apps, now for the Indian government. I trained as an engineer, so I design the experience and build it in React, Vue, or Angular. The work ships because I speak both sides.
 
 What I care about most is the part most people skip: what the screen says when something breaks on a slow connection. On public products used across India, that one moment decides whether someone reaches a service or gives up.
 
