@@ -13,17 +13,18 @@
 
   <text x="28" y="114" fill="#E8956A" font-size="14" letter-spacing="3" font-weight="700">DESIGN</text>
   <rect x="28" y="128" width="664" height="150" rx="14" fill="#1C1B14" stroke="#3A362A"/>
-  <text x="56" y="166" fill="#F7F5EF" font-size="16" font-weight="600">Mobile number</text>
-  <rect x="56" y="178" width="428" height="46" rx="10" fill="#12110C" stroke="#E8956A" stroke-width="1.5"/>
-  <text x="76" y="208" fill="#A89F8C" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">+91</text>
-  <rect x="114" y="188" width="2" height="24" fill="#F7F5EF">
+  <text x="56" y="167.5" fill="#F7F5EF" font-size="16" font-weight="600">Mobile number</text>
+  <rect x="56" y="179.5" width="428" height="46" rx="10" fill="#12110C" stroke="#E8956A" stroke-width="1.5"/>
+  <text x="76" y="209.3" fill="#A89F8C" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">+91</text>
+  <rect x="114" y="190.5" width="2" height="24" fill="#F7F5EF">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
-  <rect x="504" y="178" width="160" height="46" rx="10" fill="#F7F5EF"/>
-  <text x="584" y="208" fill="#16150F" font-size="17" font-weight="600" text-anchor="middle">Continue</text>
-  <path d="M56 268 L62 255 L68 268 Z" fill="#E8956A"/>
-  <rect x="61" y="259" width="2" height="5" fill="#1C1B14"/>
-  <text x="78" y="268" fill="#E8956A" font-size="14" font-weight="600">Enter all 10 digits</text>
+  <rect x="504" y="179.5" width="160" height="46" rx="10" fill="#F7F5EF"/>
+  <text x="584" y="208.6" fill="#16150F" font-size="17" font-weight="600" text-anchor="middle">Continue</text>
+  <path d="M63.5 236.3 L70.4 249.5 L56.6 249.5 Z" fill="#E8956A" stroke="#E8956A" stroke-width="1.1" stroke-linejoin="round"/>
+  <rect x="62.64" y="240.6" width="1.73" height="4.5" rx="0.86" fill="#1C1B14"/>
+  <rect x="62.64" y="246.3" width="1.73" height="1.73" rx="0.86" fill="#1C1B14"/>
+  <text x="79.0" y="248" fill="#E8956A" font-size="14" font-weight="600">Enter all 10 digits</text>
 
   <line x1="360" y1="286" x2="360" y2="322" stroke="#3A362A"/>
   <circle cx="360" cy="304" r="16" fill="#16150F" stroke="#3A362A"/>
