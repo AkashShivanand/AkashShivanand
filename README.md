@@ -1,9 +1,9 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-dark-mobile.svg?v=5" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-dark.svg?v=5" />
-    <source media="(max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-mobile.svg?v=5" />
-    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg?v=5" alt="Akash Kumar&#39;s header: a designed mobile number field caught in its error state, and the same component written as React code beside it. #keepitsimple" width="100%" />
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-dark-mobile.svg?v=6" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-dark.svg?v=6" />
+    <source media="(max-width: 600px)" srcset="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header-mobile.svg?v=6" />
+    <img src="https://github.com/AkashShivanand/AkashShivanand/raw/main/Assets/header.svg?v=6" alt="Akash Kumar&#39;s header: a designed mobile number field caught in its error state, and the same component written as React code beside it. #keepitsimple" width="100%" />
   </picture>
 </div>
 
