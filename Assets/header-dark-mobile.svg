@@ -8,7 +8,7 @@
   <rect x="1" y="1" width="718" height="538" rx="21" fill="#111214" stroke="#2C2E33"/>
   <rect x="1" y="1" width="718" height="9" fill="#E8956A" clip-path="url(#card)"/>
 
-  <text x="28" y="54" font-size="22" font-weight="700"><tspan fill="#7D8088">#</tspan><tspan fill="#E8956A">keep</tspan><tspan fill="#EDEDEA">it</tspan><tspan fill="#E8956A">simple</tspan></text>
+  <text x="28" y="54" font-size="22" font-weight="700"><tspan fill="#888B92">#</tspan><tspan fill="#E8956A">keep</tspan><tspan fill="#EDEDEA">it</tspan><tspan fill="#E8956A">simple</tspan></text>
   <line x1="28" y1="80" x2="692" y2="80" stroke="#2C2E33"/>
 
   <text x="28" y="114" fill="#E8956A" font-size="14" letter-spacing="3" font-weight="700">DESIGN</text>
@@ -33,7 +33,7 @@
   <text x="28" y="356" fill="#E8956A" font-size="14" letter-spacing="3" font-weight="700">CODE</text>
   <rect x="28" y="370" width="664" height="150" rx="14" fill="#18191C" stroke="#2C2E33"/>
   <line x1="68" y1="384" x2="68" y2="506" stroke="#2C2E33"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#7D8088" text-anchor="end">
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#888B92" text-anchor="end">
     <text x="58" y="398">1</text>
     <text x="58" y="417">2</text>
     <text x="58" y="436">3</text>
