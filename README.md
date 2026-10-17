@@ -27,34 +27,34 @@ What I care about most is the part most people skip: what the screen says when s
 ## Tools
 
 **Design**<br/>
-![Figma](https://img.shields.io/badge/Figma-16150F?style=flat&logo=figma&logoColor=F24E1E)
-![Illustrator](https://img.shields.io/badge/Illustrator-16150F?style=flat&logo=adobeillustrator&logoColor=FF9A00)
-![Photoshop](https://img.shields.io/badge/Photoshop-16150F?style=flat&logo=adobephotoshop&logoColor=31A8FF)
+![Figma](https://img.shields.io/badge/Figma-121314?style=flat&logo=figma&logoColor=F24E1E)
+![Illustrator](https://img.shields.io/badge/Illustrator-121314?style=flat&logo=adobeillustrator&logoColor=FF9A00)
+![Photoshop](https://img.shields.io/badge/Photoshop-121314?style=flat&logo=adobephotoshop&logoColor=31A8FF)
 
 **Build**<br/>
-![React](https://img.shields.io/badge/React-16150F?style=flat&logo=react&logoColor=61DAFB)
-![Vue](https://img.shields.io/badge/Vue-16150F?style=flat&logo=vuedotjs&logoColor=4FC08D)
-![Angular](https://img.shields.io/badge/Angular-16150F?style=flat&logo=angular&logoColor=E23237)
-![TypeScript](https://img.shields.io/badge/TypeScript-16150F?style=flat&logo=typescript&logoColor=3178C6)
-![Tailwind](https://img.shields.io/badge/Tailwind-16150F?style=flat&logo=tailwindcss&logoColor=38BDF8)
-![iOS](https://img.shields.io/badge/iOS-16150F?style=flat&logo=apple&logoColor=FFFFFF)
-![Android](https://img.shields.io/badge/Android-16150F?style=flat&logo=android&logoColor=3DDC84)
+![React](https://img.shields.io/badge/React-121314?style=flat&logo=react&logoColor=61DAFB)
+![Vue](https://img.shields.io/badge/Vue-121314?style=flat&logo=vuedotjs&logoColor=4FC08D)
+![Angular](https://img.shields.io/badge/Angular-121314?style=flat&logo=angular&logoColor=E23237)
+![TypeScript](https://img.shields.io/badge/TypeScript-121314?style=flat&logo=typescript&logoColor=3178C6)
+![Tailwind](https://img.shields.io/badge/Tailwind-121314?style=flat&logo=tailwindcss&logoColor=38BDF8)
+![iOS](https://img.shields.io/badge/iOS-121314?style=flat&logo=apple&logoColor=FFFFFF)
+![Android](https://img.shields.io/badge/Android-121314?style=flat&logo=android&logoColor=3DDC84)
 
 **AI**<br/>
-![Claude](https://img.shields.io/badge/Claude-16150F?style=flat&logo=claude&logoColor=D97757)
-![Claude Code](https://img.shields.io/badge/Claude%20Code-16150F?style=flat&logo=claude&logoColor=D97757)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-16150F?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTIyLjI4MTkgOS44MjExYTUuOTg0NyA1Ljk4NDcgMCAwIDAtLjUxNTctNC45MTA4IDYuMDQ2MiA2LjA0NjIgMCAwIDAtNi41MDk4LTIuOUE2LjA2NTEgNi4wNjUxIDAgMCAwIDQuOTgwNyA0LjE4MThhNS45ODQ3IDUuOTg0NyAwIDAgMC0zLjk5NzcgMi45IDYuMDQ2MiA2LjA0NjIgMCAwIDAgLjc0MjcgNy4wOTY2IDUuOTggNS45OCAwIDAgMCAuNTExIDQuOTEwNyA2LjA1MSA2LjA1MSAwIDAgMCA2LjUxNDYgMi45MDAxQTUuOTg0NyA1Ljk4NDcgMCAwIDAgMTMuMjU5OSAyNGE2LjA1NTcgNi4wNTU3IDAgMCAwIDUuNzcxOC00LjIwNTggNS45ODk0IDUuOTg5NCAwIDAgMCAzLjk5NzctMi45MDAxIDYuMDU1NyA2LjA1NTcgMCAwIDAtLjc0NzUtNy4wNzI5em0tOS4wMjIgMTIuNjA4MWE0LjQ3NTUgNC40NzU1IDAgMCAxLTIuODc2NC0xLjA0MDhsLjE0MTktLjA4MDQgNC43NzgzLTIuNzU4MmEuNzk0OC43OTQ4IDAgMCAwIC4zOTI3LS42ODEzdi02LjczNjlsMi4wMiAxLjE2ODZhLjA3MS4wNzEgMCAwIDEgLjAzOC4wNTJ2NS41ODI2YTQuNTA0IDQuNTA0IDAgMCAxLTQuNDk0NSA0LjQ5NDR6bS05LjY2MDctNC4xMjU0YTQuNDcwOCA0LjQ3MDggMCAwIDEtLjUzNDYtMy4wMTM3bC4xNDIuMDg1MiA0Ljc4MyAyLjc1ODJhLjc3MTIuNzcxMiAwIDAgMCAuNzgwNiAwbDUuODQyOC0zLjM2ODV2Mi4zMzI0YS4wODA0LjA4MDQgMCAwIDEtLjAzMzIuMDYxNUw5Ljc0IDE5Ljk1MDJhNC40OTkyIDQuNDk5MiAwIDAgMS02LjE0MDgtMS42NDY0ek0yLjM0MDggNy44OTU2YTQuNDg1IDQuNDg1IDAgMCAxIDIuMzY1NS0xLjk3MjhWMTEuNmEuNzY2NC43NjY0IDAgMCAwIC4zODc5LjY3NjVsNS44MTQ0IDMuMzU0My0yLjAyMDEgMS4xNjg1YS4wNzU3LjA3NTcgMCAwIDEtLjA3MSAwbC00LjgzMDMtMi43ODY1QTQuNTA0IDQuNTA0IDAgMCAxIDIuMzQwOCA3Ljg3MnptMTYuNTk2MyAzLjg1NThMMTMuMTAzOCA4LjM2NCAxNS4xMTkyIDcuMmEuMDc1Ny4wNzU3IDAgMCAxIC4wNzEgMGw0LjgzMDMgMi43OTEzYTQuNDk0NCA0LjQ5NDQgMCAwIDEtLjY3NjUgOC4xMDQydi01LjY3NzJhLjc5Ljc5IDAgMCAwLS40MDctLjY2N3ptMi4wMTA3LTMuMDIzMWwtLjE0Mi0uMDg1Mi00Ljc3MzUtMi43ODE4YS43NzU5Ljc3NTkgMCAwIDAtLjc4NTQgMEw5LjQwOSA5LjIyOTdWNi44OTc0YS4wNjYyLjA2NjIgMCAwIDEgLjAyODQtLjA2MTVsNC44MzAzLTIuNzg2NmE0LjQ5OTIgNC40OTkyIDAgMCAxIDYuNjgwMiA0LjY2ek04LjMwNjUgMTIuODYzbC0yLjAyLTEuMTYzOGEuMDgwNC4wODA0IDAgMCAxLS4wMzgtLjA1NjdWNi4wNzQyYTQuNDk5MiA0LjQ5OTIgMCAwIDEgNy4zNzU3LTMuNDUzN2wtLjE0Mi4wODA1TDguNzA0IDUuNDU5YS43OTQ4Ljc5NDggMCAwIDAtLjM5MjcuNjgxM3ptMS4wOTc2LTIuMzY1NGwyLjYwMi0xLjQ5OTggMi42MDY5IDEuNDk5OHYyLjk5OTRsLTIuNTk3NCAxLjQ5OTctMi42MDY3LTEuNDk5N1oiLz48L3N2Zz4K)
-![Gemini](https://img.shields.io/badge/Gemini-16150F?style=flat&logo=googlegemini&logoColor=8AB4F8)
-![Perplexity](https://img.shields.io/badge/Perplexity-16150F?style=flat&logo=perplexity&logoColor=20B8CD)
+![Claude](https://img.shields.io/badge/Claude-121314?style=flat&logo=claude&logoColor=D97757)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-121314?style=flat&logo=claude&logoColor=D97757)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-121314?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTIyLjI4MTkgOS44MjExYTUuOTg0NyA1Ljk4NDcgMCAwIDAtLjUxNTctNC45MTA4IDYuMDQ2MiA2LjA0NjIgMCAwIDAtNi41MDk4LTIuOUE2LjA2NTEgNi4wNjUxIDAgMCAwIDQuOTgwNyA0LjE4MThhNS45ODQ3IDUuOTg0NyAwIDAgMC0zLjk5NzcgMi45IDYuMDQ2MiA2LjA0NjIgMCAwIDAgLjc0MjcgNy4wOTY2IDUuOTggNS45OCAwIDAgMCAuNTExIDQuOTEwNyA2LjA1MSA2LjA1MSAwIDAgMCA2LjUxNDYgMi45MDAxQTUuOTg0NyA1Ljk4NDcgMCAwIDAgMTMuMjU5OSAyNGE2LjA1NTcgNi4wNTU3IDAgMCAwIDUuNzcxOC00LjIwNTggNS45ODk0IDUuOTg5NCAwIDAgMCAzLjk5NzctMi45MDAxIDYuMDU1NyA2LjA1NTcgMCAwIDAtLjc0NzUtNy4wNzI5em0tOS4wMjIgMTIuNjA4MWE0LjQ3NTUgNC40NzU1IDAgMCAxLTIuODc2NC0xLjA0MDhsLjE0MTktLjA4MDQgNC43NzgzLTIuNzU4MmEuNzk0OC43OTQ4IDAgMCAwIC4zOTI3LS42ODEzdi02LjczNjlsMi4wMiAxLjE2ODZhLjA3MS4wNzEgMCAwIDEgLjAzOC4wNTJ2NS41ODI2YTQuNTA0IDQuNTA0IDAgMCAxLTQuNDk0NSA0LjQ5NDR6bS05LjY2MDctNC4xMjU0YTQuNDcwOCA0LjQ3MDggMCAwIDEtLjUzNDYtMy4wMTM3bC4xNDIuMDg1MiA0Ljc4MyAyLjc1ODJhLjc3MTIuNzcxMiAwIDAgMCAuNzgwNiAwbDUuODQyOC0zLjM2ODV2Mi4zMzI0YS4wODA0LjA4MDQgMCAwIDEtLjAzMzIuMDYxNUw5Ljc0IDE5Ljk1MDJhNC40OTkyIDQuNDk5MiAwIDAgMS02LjE0MDgtMS42NDY0ek0yLjM0MDggNy44OTU2YTQuNDg1IDQuNDg1IDAgMCAxIDIuMzY1NS0xLjk3MjhWMTEuNmEuNzY2NC43NjY0IDAgMCAwIC4zODc5LjY3NjVsNS44MTQ0IDMuMzU0My0yLjAyMDEgMS4xNjg1YS4wNzU3LjA3NTcgMCAwIDEtLjA3MSAwbC00LjgzMDMtMi43ODY1QTQuNTA0IDQuNTA0IDAgMCAxIDIuMzQwOCA3Ljg3MnptMTYuNTk2MyAzLjg1NThMMTMuMTAzOCA4LjM2NCAxNS4xMTkyIDcuMmEuMDc1Ny4wNzU3IDAgMCAxIC4wNzEgMGw0LjgzMDMgMi43OTEzYTQuNDk0NCA0LjQ5NDQgMCAwIDEtLjY3NjUgOC4xMDQydi01LjY3NzJhLjc5Ljc5IDAgMCAwLS40MDctLjY2N3ptMi4wMTA3LTMuMDIzMWwtLjE0Mi0uMDg1Mi00Ljc3MzUtMi43ODE4YS43NzU5Ljc3NTkgMCAwIDAtLjc4NTQgMEw5LjQwOSA5LjIyOTdWNi44OTc0YS4wNjYyLjA2NjIgMCAwIDEgLjAyODQtLjA2MTVsNC44MzAzLTIuNzg2NmE0LjQ5OTIgNC40OTkyIDAgMCAxIDYuNjgwMiA0LjY2ek04LjMwNjUgMTIuODYzbC0yLjAyLTEuMTYzOGEuMDgwNC4wODA0IDAgMCAxLS4wMzgtLjA1NjdWNi4wNzQyYTQuNDk5MiA0LjQ5OTIgMCAwIDEgNy4zNzU3LTMuNDUzN2wtLjE0Mi4wODA1TDguNzA0IDUuNDU5YS43OTQ4Ljc5NDggMCAwIDAtLjM5MjcuNjgxM3ptMS4wOTc2LTIuMzY1NGwyLjYwMi0xLjQ5OTggMi42MDY5IDEuNDk5OHYyLjk5OTRsLTIuNTk3NCAxLjQ5OTctMi42MDY3LTEuNDk5N1oiLz48L3N2Zz4K)
+![Gemini](https://img.shields.io/badge/Gemini-121314?style=flat&logo=googlegemini&logoColor=8AB4F8)
+![Perplexity](https://img.shields.io/badge/Perplexity-121314?style=flat&logo=perplexity&logoColor=20B8CD)
 
 ## Find me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-16150F?style=flat&logo=linkedin&logoColor=4C9AFF)](https://linkedin.com/in/akashshivanand)
-[![Behance](https://img.shields.io/badge/Behance-16150F?style=flat&logo=behance&logoColor=4C9AFF)](https://behance.net/akashshivanand)
-[![Dribbble](https://img.shields.io/badge/Dribbble-16150F?style=flat&logo=dribbble&logoColor=EA4C89)](https://dribbble.com/akashshivanand)
-[![CodePen](https://img.shields.io/badge/CodePen-16150F?style=flat&logo=codepen&logoColor=FFFFFF)](https://codepen.io/akashshivanand)
-[![Medium](https://img.shields.io/badge/Medium-16150F?style=flat&logo=medium&logoColor=FFFFFF)](https://medium.com/@akashshivanand)
-[![X](https://img.shields.io/badge/X-16150F?style=flat&logo=x&logoColor=FFFFFF)](https://x.com/akashshivanand)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-121314?style=flat&logo=linkedin&logoColor=4C9AFF)](https://linkedin.com/in/akashshivanand)
+[![Behance](https://img.shields.io/badge/Behance-121314?style=flat&logo=behance&logoColor=4C9AFF)](https://behance.net/akashshivanand)
+[![Dribbble](https://img.shields.io/badge/Dribbble-121314?style=flat&logo=dribbble&logoColor=EA4C89)](https://dribbble.com/akashshivanand)
+[![CodePen](https://img.shields.io/badge/CodePen-121314?style=flat&logo=codepen&logoColor=FFFFFF)](https://codepen.io/akashshivanand)
+[![Medium](https://img.shields.io/badge/Medium-121314?style=flat&logo=medium&logoColor=FFFFFF)](https://medium.com/@akashshivanand)
+[![X](https://img.shields.io/badge/X-121314?style=flat&logo=x&logoColor=FFFFFF)](https://x.com/akashshivanand)
 
 ---
 
