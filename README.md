@@ -11,9 +11,9 @@
 
 What I care about most is the part most people skip: what the screen says when something breaks on a slow connection. On public products used across India, that one moment decides whether someone reaches a service or gives up.
 
-The interface is where a product decides who it is actually for. At India's scale, that decision includes or excludes millions. Most design problems are really business, inclusion, or trust problems wearing a design costume.
+[The interface is where a product decides who it is actually for.](https://akashshivanand.com/idea/) At India's scale, that decision includes or excludes millions. Most design problems are really business, inclusion, or trust problems wearing a design costume.
 
-## Work
+## [Work](https://akashshivanand.com/work/)
 
 - **Tata Neu, one of India's largest super apps.** Designed across nearly every surface, then built the in-house, token-based design system behind the 2023 relaunch, the same relaunch that saw its Google Play rating climb from 3.8 to 4.2. Scaled it across food delivery, fashion, grocery, and seasonal modules.
 - **The Indian government** *(current)***.** Unifying sprawling public-sector platforms into single, coherent systems, and building the shared design and component foundations behind national e-governance services.
